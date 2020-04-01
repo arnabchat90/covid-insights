@@ -1,10 +1,12 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Worldwide covid-19 dashboard",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Arnab Chatterjee",
   "dependencies": {
+    "d3": "^5.15.0",
+    "d3-scale": "^3.2.1",
     "gatsby": "^2.19.45",
     "gatsby-image": "^2.2.44",
     "gatsby-plugin-manifest": "^2.2.48",
@@ -13,10 +15,14 @@
     "gatsby-plugin-sharp": "^2.4.13",
     "gatsby-source-filesystem": "^2.1.56",
     "gatsby-transformer-sharp": "^2.3.19",
+    "node-fetch": "^2.6.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "react-faux-dom": "^4.5.0",
+    "react-helmet": "^5.2.1",
+    "topojson": "^3.0.2",
+    "whatwg-fetch": "^3.0.0"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
