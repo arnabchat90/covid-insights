@@ -33,6 +33,7 @@ exports.sourceNodes = async ({
   jsonData.records.forEach(element => {
     const node = {
       ...element,
+      cases: parseInt(element.cases),
       id: createNodeId(`covid - ${element.geoId}- ${element.dateRep}`),
       internal: {
         type: "covid",
